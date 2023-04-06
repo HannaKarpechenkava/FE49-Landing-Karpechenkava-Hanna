@@ -1,5 +1,5 @@
 .awesome {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
   padding: 80px 0px 116px;
 }
 .title {
@@ -8,7 +8,7 @@
   font-weight: 400;
   font-size: 36px;
   font-style: normal;
-  color: #212121;
+  color: rgba(33, 33, 33, 1);
   text-transform: uppercase;
   margin: auto;
   text-align: center;
@@ -17,12 +17,12 @@
 .line {
   width: 64px;
   height: 2px;
-  background-color: #e72424;
+  background-color: rgba(231, 36, 36, 1);
   margin: auto;
   margin-bottom: 34px;
 }
 .head-text {
-  color: #86878b;
+  color: rgba(134, 135, 139, 1);
   font-size: 14px;
   line-height: 19px;
   width: 780px;
@@ -46,7 +46,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  border: 1px solid #e72424;
+  border: 1px solid rgba(231, 36, 36, 1);
   border-radius: 50%;
   width: 70px;
   height: 70px;
@@ -61,7 +61,7 @@
 .awesome-card_title {
   text-align: center;
   margin-bottom: 16px;
-  color: #333333;
+  color: rgba(51, 51, 51, 1);
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -73,7 +73,7 @@
 }
 .awesome-card_text p {
   text-align: center;
-  color: #000000;
+  color: rgba(0, 0, 0, 1);
   font-weight: 400;
   font-size: 14px;
 }
