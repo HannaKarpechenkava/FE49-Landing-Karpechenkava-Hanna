@@ -1,0 +1,59 @@
+.header {
+  background-color: rgba(0, 0, 0, 1);
+  padding: 20px 0;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -15px;
+}
+.logo {
+  text-transform: uppercase;
+  font-style: Raleway;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+}
+.logo::after {
+  content: "IT";
+  width: 35px;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.55);
+  color: rgba(236, 121, 121, 1);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navigation {
+}
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-list_item {
+  margin-left: 48px;
+  border: 1px solid transparent;
+  line-height: 40px;
+}
+.navigation-list_item:hover {
+  box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.6);
+  transition: 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  /* border-radius: 5px; */
+}
+.navigation-list_item:first-child {
+  margin: 0;
+}
+
+.navigation-list_item a {
+  margin: 0 10px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.navigation-list_item a:hover {
+  color: rgba(236, 121, 121, 1);
+  transition: 0.2s;
+}

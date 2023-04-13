@@ -1,0 +1,73 @@
+.footer {
+  background-color: rgba(0, 0, 0, 1);
+  padding: 30px 0 15px;
+}
+.footer-list {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.footer-list_item {
+  font-size: 23px;
+  margin-bottom: 15px;
+  transition: 0.2s;
+}
+.footer-list_item:hover {
+  transform: scale(2.2);
+}
+.fa-facebook-f_footer {
+  color: rgba(134, 135, 139, 1);
+}
+.fa-facebook-f_footer:hover {
+  color: rgba(80, 80, 232, 01);
+}
+.fa-twitter_footer {
+  color: rgba(134, 135, 139, 1);
+}
+.fa-twitter_footer:hover {
+  color: rgba(80, 80, 232, 01);
+}
+.fa-google_footer {
+  color: rgba(134, 135, 139, 1);
+}
+.fa-google_footer:hover {
+  color: rgba(255, 3, 3, 1);
+}
+.fa-pinterest_footer {
+  color: rgba(134, 135, 139, 1);
+}
+.fa-pinterest_footer:hover {
+  color: rgba(255, 3, 3, 1);
+}
+.fa-instagram_footer {
+  color: rgba(134, 135, 139, 1);
+}
+.fa-instagram_footer:hover {
+  background: linear-gradient(to right, #9903f6 0%, #f512b4 50%, #f8bf12 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-stumbleupon_footer {
+  color: rgba(134, 135, 139, 1);
+}
+.fa-stumbleupon_footer:hover {
+  color: rgba(255, 3, 3, 1);
+}
+.fa-rss_footer {
+  color: rgba(134, 135, 139, 1);
+}
+.fa-rss_footer:hover {
+  color: rgb(255, 116, 3);
+}
+.version {
+  margin: auto;
+}
+.version p {
+  color: rgba(134, 135, 139, 1);
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
