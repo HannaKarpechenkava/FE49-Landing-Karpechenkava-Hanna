@@ -15,7 +15,8 @@
   transition: 0.2s;
 }
 .footer-list_item:hover {
-  transform: scale(2.2);
+  transform: scale(2.1);
+  transition: 0.2s;
 }
 .fa-facebook-f_footer {
   color: rgba(134, 135, 139, 1);
@@ -33,7 +34,15 @@
   color: rgba(134, 135, 139, 1);
 }
 .fa-google_footer:hover {
-  color: rgba(255, 3, 3, 1);
+  background: linear-gradient(
+    0deg,
+    #fa3f00 20%,
+    #ffcc00 50%,
+    #32aa03 80%,
+    #4164ff 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .fa-pinterest_footer {
   color: rgba(134, 135, 139, 1);

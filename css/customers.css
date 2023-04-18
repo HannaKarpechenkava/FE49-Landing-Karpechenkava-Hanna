@@ -25,13 +25,13 @@
 .head-description {
   margin: auto;
   margin-bottom: 76px;
+  width: 780px;
 }
 .head-description p {
   color: rgba(134, 135, 139, 1);
-  font-size: 14px;
+  font-size: 14 px;
   font-weight: 400;
   line-height: 19px;
-  width: 780px;
   text-align: center;
 }
 .customers-wrap {

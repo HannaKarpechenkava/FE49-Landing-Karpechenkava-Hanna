@@ -1,0 +1,111 @@
+.contact {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 80px 0px 50px;
+}
+.title {
+  width: 670px;
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 36px;
+  color: rgba(33, 33, 33, 1);
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.title::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: rgba(231, 36, 36, 1);
+  text-align: center;
+  display: block;
+  margin-bottom: 34px;
+}
+.head-description {
+  margin: auto;
+  margin-bottom: 76px;
+  width: 780px;
+}
+.head-description p {
+  color: rgba(134, 135, 139, 1);
+  font-size: 14 px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+}
+.contact-form {
+}
+.contact-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+  margin-bottom: 70px;
+}
+.contact-form_user {
+  margin: 0 83px 0 15px;
+  width: calc(0.5 * 80%);
+}
+.contact-item {
+  display: flex;
+  flex-direction: column;
+}
+.contact-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(189, 189, 189, 1);
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+#contact-item_name,
+#contact-item_email,
+#contact-item_password {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  margin-bottom: 32px;
+}
+.contact-message {
+  width: 480px;
+  margin: 0 15px 0 83px;
+  width: calc(0.5 * 80%);
+}
+.contact-message_item {
+  display: flex;
+  flex-direction: column;
+}
+.contact-label {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(189, 189, 189, 1);
+}
+.contact-message_text {
+  height: 170px;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+}
+.contact-button {
+  display: block;
+  margin: auto;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  background: rgba(236, 121, 121, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 11px 31px;
+  border: none;
+  transition: 0.2s;
+}
+.contact-button:hover {
+  background: rgba(189, 189, 189, 0.3);
+  color: rgba(236, 121, 121, 1);
+  transition: 0.2s;
+}

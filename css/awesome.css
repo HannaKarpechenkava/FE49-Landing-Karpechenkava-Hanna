@@ -22,15 +22,16 @@
   display: block;
   margin: 34px auto;
 }
+.head-description {
+  width: 780px;
+  margin: auto;
+  margin-bottom: 68px;
+}
 .head-description p {
   color: rgba(134, 135, 139, 1);
   text-align: center;
   font-size: 14px;
-  line-height: 19px;
-  width: 780px;
-  margin: auto;
   text-align: center;
-  margin-bottom: 68px;
 }
 .awesome-wrap {
   display: flex;

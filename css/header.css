@@ -1,6 +1,7 @@
 .header {
   background-color: rgba(0, 0, 0, 1);
   padding: 20px 0;
+  cursor: pointer;
 }
 .header-wrap {
   display: flex;
@@ -8,14 +9,14 @@
   align-items: center;
   margin: 0 -15px;
 }
-.logo {
+.logo p {
   text-transform: uppercase;
   font-style: Raleway;
   font-weight: 400;
   font-size: 30px;
   color: rgba(255, 255, 255, 1);
 }
-.logo::after {
+.logo p::after {
   content: "IT";
   width: 35px;
   position: absolute;
@@ -27,12 +28,12 @@
 .navigation {
 }
 .navigation-list {
+  width: 490px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .navigation-list_item {
-  margin-left: 48px;
   border: 1px solid transparent;
   line-height: 40px;
 }
@@ -40,12 +41,10 @@
   box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.6);
   transition: 0.2s;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  /* border-radius: 5px; */
+  border-radius: 5px;
+  background-color: rgba(236, 121, 121, 0.5);
+  transform: scale(2, 2);
 }
-.navigation-list_item:first-child {
-  margin: 0;
-}
-
 .navigation-list_item a {
   margin: 0 10px;
   font-size: 15px;
@@ -54,6 +53,6 @@
   color: rgba(255, 255, 255, 0.7);
 }
 .navigation-list_item a:hover {
-  color: rgba(236, 121, 121, 1);
   transition: 0.2s;
+  transform: scale(5, 5);
 }
