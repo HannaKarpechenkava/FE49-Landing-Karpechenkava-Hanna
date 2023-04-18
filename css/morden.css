@@ -122,10 +122,14 @@
   text-transform: capitalize;
 }
 #form_input {
+  outline: none;
   border: none;
   width: 100%;
   border-bottom: 1px solid rgba(189, 189, 189, 1);
   margin-bottom: 19px;
+}
+#form_input:last-child {
+  margin-bottom: 0;
 }
 .form-button {
   font-weight: 500;
@@ -134,7 +138,7 @@
   color: rgba(255, 255, 255, 1);
   text-transform: capitalize;
   width: 370px;
-  line-height: 58px;
+  line-height: 62px;
   background: rgba(236, 121, 121, 1);
   border: 3px solid rgba(236, 121, 121, 1);
   transition: 0.2s;
