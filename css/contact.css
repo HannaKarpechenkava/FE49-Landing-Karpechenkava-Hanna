@@ -41,59 +41,66 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 -15px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 .contact-form_user {
-  margin: 0 83px 0 15px;
-  width: calc(0.5 * 80%);
+  margin: 0 15px;
+  width: 40%;
 }
 .contact-item {
   display: flex;
   flex-direction: column;
+  margin-bottom: 5px;
 }
 .contact-label {
-  font-style: normal;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
-  line-height: 19px;
+  /* line-height: 19px; */
   color: rgba(189, 189, 189, 1);
   text-transform: capitalize;
-  margin-bottom: 10px;
 }
-#contact-item_name,
-#contact-item_email,
-#contact-item_password {
+#contact_item {
   outline: none;
   border: none;
+  width: 100%;
   border-bottom: 1px solid rgba(189, 189, 189, 1);
+  padding: 3px 0;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
   margin-bottom: 32px;
 }
 .contact-message {
-  width: 480px;
-  margin: 0 15px 0 83px;
-  width: calc(0.5 * 80%);
+  margin: 0 15px;
+  width: 40%;
 }
 .contact-message_item {
   display: flex;
   flex-direction: column;
 }
 .contact-label {
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   color: rgba(189, 189, 189, 1);
 }
 .contact-message_text {
-  height: 170px;
+  height: 200px;
   outline: none;
   resize: none;
   border: none;
   border-bottom: 1px solid rgba(189, 189, 189, 1);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(51, 51, 51, 1);
 }
 .contact-button {
   display: block;
   margin: auto;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;

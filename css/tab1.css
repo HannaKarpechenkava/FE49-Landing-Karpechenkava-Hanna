@@ -1,0 +1,111 @@
+.tabs {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 125px 0px;
+}
+.tabs-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+.header-tab {
+  margin: auto 15px;
+  display: flex;
+  flex-direction: column;
+}
+.header-tab_btn {
+  width: 112px;
+  height: 110px;
+  border: 1px solid rgba(51, 51, 51, 1);
+  border-radius: 4px;
+  background-color: rgba(51, 51, 51, 1);
+  margin-bottom: 10px;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+.header-tab_btn:last-child {
+  margin-bottom: 0;
+}
+.header-tab_btn:hover {
+  background-color: rgba(236, 121, 121, 1);
+  border: 1px solid rgba(236, 121, 121, 1);
+}
+.active {
+  /* background-color: rgba(248, 239, 239, 1); */
+}
+.content-tab {
+  margin: 0 15px;
+}
+.content-tab_item-city {
+}
+.content-tab_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+.description-wrap {
+}
+.tab-title {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+.tab-text {
+  width: 572px;
+  margin-bottom: 80px;
+}
+.tab-text p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: rgba(134, 135, 139, 1);
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+.tab-text p:last-child {
+  margin-bottom: 0;
+}
+.link_tab_wrap {
+  display: block;
+  /* flex-grow: 10; */
+  width: 135px;
+  height: 42px;
+}
+.link_tab {
+  border: 1px solid rgba(236, 121, 121, 1);
+  background-color: rgba(236, 121, 121, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 11px 26px;
+}
+.link_tab a {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.link_tab:hover {
+  border: 1px solid rgba(51, 51, 51, 1);
+  box-shadow: 0px 0px 10px rgba(11, 11, 11, 0.5);
+  transition: 0.2s;
+  color: rgba(51, 51, 51, 1);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.img-wrap {
+  margin: 0 15px;
+}
+.img-wrap img {
+  width: 320px;
+  height: 253px;
+  object-fit: cover;
+  object-position: center;
+}
+.content-tab_item-new-york {
+  display: none;
+}
+.content-tab_item-venecia {
+  display: none;
+}

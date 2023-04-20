@@ -9,9 +9,12 @@
   align-items: center;
   margin: 0 -15px;
 }
+.logo {
+  margin: 0 15px;
+}
 .logo p {
   text-transform: uppercase;
-  font-style: Raleway;
+  font-style: "Raleway";
   font-weight: 400;
   font-size: 30px;
   color: rgba(255, 255, 255, 1);
@@ -26,6 +29,7 @@
   background-size: cover;
 }
 .navigation {
+  margin: 0 15px;
 }
 .navigation-list {
   width: 490px;
@@ -38,12 +42,12 @@
   line-height: 40px;
 }
 .navigation-list_item:hover {
-  box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
   transition: 0.2s;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   background-color: rgba(236, 121, 121, 0.5);
-  transform: scale(2, 2);
+  transform: scale(1.5, 1.5);
 }
 .navigation-list_item a {
   margin: 0 10px;
