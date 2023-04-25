@@ -68,7 +68,7 @@
   text-align: left;
 }
 .modern-link_wrap {
-  display: block;
+  display: inline-block;
   width: 135px;
 }
 .modern-link {

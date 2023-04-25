@@ -46,7 +46,7 @@
 }
 .customers-card_text {
   width: 300px;
-  padding: 9px 22px 6px 23px;
+  padding: 0.5625em 1.375em 0.375em 1.375em;
   border: 1px solid rgba(226, 226, 226, 1);
   border-radius: 7px;
   background-color: rgba(226, 226, 226, 1);
